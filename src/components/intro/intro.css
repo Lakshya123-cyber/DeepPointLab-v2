@@ -122,7 +122,8 @@
     margin-top: 30px;
   }
 
-  .i-img {
-    margin-top: 0px;
+  .i-img,
+  .i-bg {
+    display: none;
   }
 }

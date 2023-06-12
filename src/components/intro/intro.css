@@ -122,7 +122,10 @@
 
   .i-right {
     margin-top: 30px;
-    height: 50vh;
+  }
+
+  .i-img {
+    height: 110%;
   }
 
   .i-bg {

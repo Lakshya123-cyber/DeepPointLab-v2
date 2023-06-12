@@ -55,19 +55,14 @@
   .a {
     flex-direction: column;
     text-align: center;
-    margin-top: 50px;
   }
 
   .a-left {
     width: 100%;
   }
 
-  .a-card {
-    margin-top: 100px;
-    height: 25.5vh;
-  }
-
-  .a-card.bg {
+  .a-card.bg,
+  .a-card .a-img {
     display: none;
   }
 

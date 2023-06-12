@@ -29,6 +29,7 @@
 @media screen and (max-width: 480px) {
   .pl {
     padding: 10px;
+    margin-bottom: 60px;
   }
 
   .pl-texts {
@@ -38,6 +39,4 @@
   .pl-desc {
     display: none;
   }
-
-  
 }

@@ -1,4 +1,5 @@
 .i {
+  /* margin-top: 100px; */
   display: flex;
   height: 100vh;
 }
@@ -93,6 +94,7 @@
 @media screen and (max-width: 480px) {
   .i {
     flex-direction: column;
+    margin-top: 60px;
   }
 
   .i-left-wrapper {
@@ -122,8 +124,11 @@
     margin-top: 30px;
   }
 
-  .i-img,
   .i-bg {
+    display: none;
+  }
+
+  svg {
     display: none;
   }
 }

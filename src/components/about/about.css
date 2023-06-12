@@ -63,7 +63,8 @@
   }
 
   .a-card {
-    height: 25vh;
+    margin-top: 100px;
+    height: 25.5vh;
   }
 
   .a-card.bg {
@@ -72,5 +73,6 @@
 
   .a-right {
     padding: 20px;
+    margin-bottom: 60px;
   }
 }

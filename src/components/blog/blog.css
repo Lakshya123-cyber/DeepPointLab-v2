@@ -55,3 +55,17 @@
 .items {
   background-color: #c1eff1;
 }
+.h1 {
+  margin-left: 725px;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .h1 {
+    margin-left: 80px;
+    font-size: 2.8rem;
+  }
+}

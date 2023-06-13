@@ -6,6 +6,7 @@ import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import Navbar from "./components/navbar/Navbar";
+import Testimonials from "./components/testimonials/Testimonials";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -22,6 +23,7 @@ const App = () => {
       <Intro />
       <About />
       <ProductList />
+      <Testimonials />
       <Contact />
     </div>
   );

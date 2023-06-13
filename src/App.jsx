@@ -8,6 +8,9 @@ import { ThemeContext } from "./context";
 import Navbar from "./components/navbar/Navbar";
 import Testimonials from "./components/testimonials/Testimonials";
 import Blog from "./components/blog/Blog";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -21,11 +24,21 @@ const App = () => {
       }}
     >
       <Navbar />
-      <Intro />
-      <About />
-      <ProductList />
-      <Testimonials />
-      <Blog />
+      <div data-aos="fade-right">
+        <Intro />
+      </div>
+      <div data-aos="fade-left">
+        <About />
+      </div>
+      <div data-aos="flip-right">
+        <ProductList />
+      </div>
+      <div data-aos="fade-up">
+        <Testimonials />
+      </div>
+      <div data-aos="zoom-in">
+        <Blog />
+      </div>
       <Contact />
     </div>
   );

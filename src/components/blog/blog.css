@@ -1,0 +1,57 @@
+.blog img {
+  width: 70%;
+  height: 70%;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+
+.blog .text {
+  padding: 40px 30px;
+}
+
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.padding {
+  padding: 80px 0;
+}
+.shadow {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+}
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+.blog h1 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 20px 0;
+  transition: 0.5s;
+  color: #000;
+}
+.blog p {
+  color: #000;
+}
+
+.blog h1:hover {
+  color: #47ccdb;
+  cursor: pointer;
+}
+.blog span {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1eb2a6;
+}
+
+.items {
+  background-color: #c1eff1;
+}

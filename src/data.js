@@ -32,7 +32,7 @@ export const services = [
   },
 ];
 
-const testimonials = [
+export const testimonials = [
   {
     id: 1,
     name: "Shaif Arfan",
@@ -56,3 +56,54 @@ const testimonials = [
   },
 ];
 export default testimonials;
+
+export const blogs = [
+  {
+    id: 1,
+    type: "admin",
+    date: "JAN. 18, 2023",
+    com: "3 COMMENTS",
+    title: "Build your Dream Software & Engineering Career",
+    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  },
+  {
+    id: 2,
+    type: "admin",
+    date: "APR. 25, 2023",
+    com: "5 COMMENTS",
+    title: "Build your Dream Software & Engineering Career",
+    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  },
+  {
+    id: 3,
+    type: "user",
+    date: "MAY. 15, 2023",
+    com: "10 COMMENTS ",
+    title: "Build your Dream Software & Engineering Career",
+    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  },
+  {
+    id: 4,
+    type: "admin",
+    date: "JAN. 02, 2022",
+    com: "3 COMMENTS ",
+    title: "Build your Dream Software & Engineering Career",
+    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  },
+  {
+    id: 5,
+    type: "admin",
+    date: "DEC. 14, 2023",
+    com: "3 COMMENTS ",
+    title: "Build your Dream Software & Engineering Career",
+    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  },
+  {
+    id: 6,
+    type: "user",
+    date: "JAN. 18, 2023",
+    com: "12 COMMENTS ",
+    title: "Build your Dream Software & Engineering Career",
+    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  },
+];

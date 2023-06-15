@@ -2,6 +2,8 @@ import React from "react";
 import { blogs } from "../../data";
 import Img from "../../img/card.png";
 import "./blog.css";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import BlogPost from "./BlogPost";
 
 const BlogCard = () => {
   return (
@@ -24,7 +26,7 @@ const BlogCard = () => {
                   <label htmlFor="">{val.com}</label>
                 </span>
               </div>
-              <h1>{val.title}</h1>
+              <a href="blogs">{val.title}</a>
               <p>{val.desc}</p>
             </div>
           </div>

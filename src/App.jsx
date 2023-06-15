@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
@@ -10,6 +11,8 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Blog from "./components/blog/Blog";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import BlogPost from "./components/blog/BlogPost";
+
 AOS.init();
 
 const App = () => {

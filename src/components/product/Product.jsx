@@ -1,17 +1,24 @@
-import "./product.css";
+import React from "react";
+import { MdDesktopMac } from "react-icons/md";
+import styled from "styled-components";
+import PText from "../testimonials/PText";
 
-const Product = ({ para, heading }) => {
+const ItemStyles = styled.div`
+  text-align: center;
+  .servicesItem__title {
+    font-size: 2.5rem;
+    font-family: "Poppins";
+  }
+  .para {
+    margin-top: 2rem;
+  }
+`;
+
+export default function ServicesSectionItem({ title, desc }) {
   return (
-    <div className="p">
-      <div className="p-browser">
-        <div className="p-circle p-red"></div>
-        <div className="p-circle p-yell"></div>
-        <div className="p-circle p-green"></div>
-      </div>
-      <h3 className="p-head">{heading}</h3>
-      <p className="p-para">{para}</p>
-    </div>
+    <ItemStyles className="servicesItem">
+      <div className="servicesItem__title">{title}</div>
+      <PText>{desc}</PText>
+    </ItemStyles>
   );
-};
-
-export default Product;
+}

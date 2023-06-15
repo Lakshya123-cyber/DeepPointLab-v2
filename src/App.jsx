@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
@@ -27,22 +27,15 @@ const App = () => {
       }}
     >
       <Navbar />
-      <div data-aos="fade-right">
-        <Intro />
-      </div>
-      <div data-aos="fade-left">
-        <About />
-      </div>
-      <div data-aos="flip-right">
-        <ProductList />
-      </div>
-      <div data-aos="fade-up">
-        <Testimonials />
-      </div>
-      <div data-aos="zoom-in">
-        <Blog />
-      </div>
-      <Contact />
+
+      <Routes>
+        <Route path="/" element={<Intro />} exact />
+        <Route path="/" element={<About />} exact />
+        <Route path="/" element={<ProductList />} exact />
+        <Route path="/" element={<Testimonials />} exact />
+        <Route path="/blogs" element={<BlogPost />} exact />
+        <Route path="/" element={<Contact />} exact />
+      </Routes>
     </div>
   );
 };

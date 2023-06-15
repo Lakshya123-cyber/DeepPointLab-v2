@@ -38,7 +38,13 @@ export default function ServicesSection() {
         <SectionTitle subheading="What We will do for you" heading="Services" />
         <div className="services__allItems">
           {services.map((val) => {
-            return <ServicesSectionItem title={val.heading} desc={val.para} />;
+            return (
+              <ServicesSectionItem
+                key={val.id}
+                title={val.heading}
+                desc={val.para}
+              />
+            );
           })}
         </div>
       </div>

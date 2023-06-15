@@ -3,6 +3,7 @@ import { MenuData } from "./MenuData";
 import "./NavbarStyles.css";
 import Toggle from "../toggle/Toggle";
 import logo from "../../img/logo.svg";
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -25,9 +26,9 @@ class Navbar extends Component {
             {MenuData.map((item, i) => {
               return (
                 <li key={i}>
-                  <a href={item.url} className={item.cName}>
+                  <Link to={item.url} className={item.cName}>
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               );
             })}

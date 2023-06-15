@@ -1,0 +1,46 @@
+.singlePage {
+  padding: 50px 0;
+  background: #fff;
+}
+.singlePage .right {
+  margin-top: 30px;
+}
+.singlePage h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.singlePage p {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 2;
+  text-transform: capitalize;
+}
+.singlePage .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.singlePage .button {
+  margin-left: 20px;
+  border: none;
+}
+.singlePage .button:nth-child(1) {
+  background: #10ac84;
+}
+.singlePage .button:nth-child(2) {
+  background: #ee5253;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 530px;
+}
+
+@media screen and (max-width: 480px) {
+  .img {
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 500px;
+  }
+}

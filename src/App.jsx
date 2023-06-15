@@ -1,14 +1,14 @@
 import { useContext } from "react";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
-import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import Navbar from "./components/navbar/Navbar";
+import ProductList from "./components/productList/ProductList";
 import Testimonials from "./components/testimonials/Testimonials";
 import Blog from "./components/blog/Blog";
+import Contact from "./components/contact/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import BlogPost from "./components/blog/BlogPost";

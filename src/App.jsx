@@ -9,9 +9,9 @@ import ProductList from "./components/productList/ProductList";
 import Testimonials from "./components/testimonials/Testimonials";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
+import BlogPost from "./components/blog/BlogPost";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import BlogPost from "./components/blog/BlogPost";
 
 AOS.init();
 

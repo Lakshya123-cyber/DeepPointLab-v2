@@ -40,7 +40,8 @@
 @media screen and (max-width: 480px) {
   .img {
     margin-top: 100px;
-    margin-left: 20px;
-    width: 500px;
+    margin-left: -10px;
+    max-width: 365px;
+    max-height: 365px;
   }
 }

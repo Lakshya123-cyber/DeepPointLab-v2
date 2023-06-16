@@ -1,5 +1,6 @@
 import "./about.css";
 import Img from "../../img/bill.png";
+import { useEffect } from "react";
 
 const About = () => {
   return (

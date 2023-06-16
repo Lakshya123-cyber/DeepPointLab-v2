@@ -30,21 +30,23 @@
   margin: auto;
 }
 
-.blog h1 {
+.blog .h1 {
   font-weight: 500;
   font-size: 22px;
   line-height: 30px;
   margin: 20px 0;
   transition: 0.5s;
   color: #000;
+  text-decoration: none;
 }
 .blog p {
   color: #000;
 }
 
-.blog h1:hover {
+.blog .h1:hover {
   color: #47ccdb;
   cursor: pointer;
+  text-decoration: none;
 }
 .blog span {
   text-transform: uppercase;
@@ -58,6 +60,7 @@
 .h1 {
   margin-left: 715px;
   font-size: 3rem;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {
@@ -67,6 +70,7 @@
   .h1 {
     margin-left: 80px;
     font-size: 2.8rem;
+    text-decoration: none;
   }
   .blog img {
     margin-left: 50px;

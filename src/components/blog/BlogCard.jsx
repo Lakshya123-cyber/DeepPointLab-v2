@@ -33,7 +33,9 @@ const BlogCard = () => {
                   <label htmlFor="">{val.com}</label>
                 </span>
               </div>
-              <h1 onClick={() => {}}>{val.title}</h1>
+              <Link to="/blogs" className="h1">
+                {val.title}
+              </Link>
               <p>{val.desc}</p>
             </div>
           </div>

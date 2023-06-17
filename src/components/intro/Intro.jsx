@@ -108,10 +108,10 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div data-aos="fade-left">
+      <div data-aos="fade-up">
         <About />
       </div>
-      <div data-aos="fade-right">
+      <div data-aos="fade-down">
         <ProductList />
       </div>
       <div data-aos="fade-up">
@@ -120,7 +120,7 @@ const Intro = () => {
       <div data-aos="fade-down">
         <Blog />
       </div>
-      <div data-aos="fade-left">
+      <div data-aos="fade-up">
         <Contact />
       </div>
     </>

@@ -1,53 +1,39 @@
-import React from "react";
-import { MdDesktopMac, MdCode, MdPhonelinkSetup } from "react-icons/md";
-import styled from "styled-components";
-import SectionTitle from "../testimonials/SectionTitle";
-import ServicesSectionItem from "../product/Product";
-import { services } from "../../data";
+import React, { useState } from "react";
+import "./portfolio.css";
+import Menu from "./Menu";
 
-const ProductListStyles = styled.div`
-  padding: 10rem 0;
+const Portfolio = () => {
+  const [items, setItems] = useState(Menu);
 
-  .services__allItems {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    row-gap: 3rem;
-    justify-content: space-between;
-    margin-top: 5rem;
-  }
+  const filterItem = (categoryItem) => {
+    const updatedItems = Menu.filter((curElem) => {
+      return curElem.category === categoryItem;
+    });
 
-  @media only screen and (max-width: 768px) {
-    .services__allItems {
-      flex-direction: column;
-      max-width: 350px;
-      margin: 0 auto;
-      margin-top: 3rem;
-      gap: 5rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-      grid-gap: 2rem;
-    }
-  }
-`;
+    setItems(updatedItems);
+  };
 
-export default function ServicesSection() {
   return (
-    <ProductListStyles>
-      <div className="container">
-        <SectionTitle subheading="What We will do for you" heading="Services" />
-        <div className="services__allItems">
-          {services.map((val) => {
-            return (
-              <ServicesSectionItem
-                key={val.id}
-                title={val.heading}
-                desc={val.para}
-              />
-            );
-          })}
-        </div>
+    <section className="work container section" id="work">
+      <h2 className="section__title">Our Services</h2>
+
+      <div className="work__container grid">
+        {items.map((elem) => {
+          const { id, image, title, description } = elem;
+          return (
+            <div className="work__card" key={id}>
+              <div className="work__thumbnail">
+                <img src={image} alt="" className="work__img" />
+                <div className="work__mask"></div>
+              </div>
+              <h3 className="work__title">{title}</h3>
+              <p className="work__paragraph">{description}</p>
+            </div>
+          );
+        })}
       </div>
-    </ProductListStyles>
+    </section>
   );
-}
+};
+
+export default Portfolio;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import Img from "../../img/robot.png";
+import Img from "../../img/hand.png";
 import About from "../about/About";
 import ProductList from "../productList/ProductList";
 import Testimonials from "../testimonials/Testimonials";

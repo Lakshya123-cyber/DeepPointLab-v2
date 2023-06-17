@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import About from "./components/about/About";
 import Intro from "./components/intro/Intro";
@@ -18,6 +18,10 @@ AOS.init();
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
 
   return (
     <div

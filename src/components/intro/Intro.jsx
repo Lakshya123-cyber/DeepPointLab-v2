@@ -110,7 +110,7 @@ const Intro = () => {
           </div> */}
           <div className="i-right">
             <Spline
-              scene="https://prod.spline.design/jmCKfd-xG14UYY5S/scene.splinecode/"
+              scene="https://prod.spline.design/jmCKfd-xG14UYY5S/scene.splinecode"
               className="spline"
             />
           </div>

@@ -104,15 +104,9 @@ const Intro = () => {
               </g>
             </svg>
           </div>
-          {/* <div className="i-right">
+          <div className="i-right">
             <div className="i-bg"></div>
             <img src={Img} alt="" className="i-img" />
-          </div> */}
-          <div className="i-right">
-            <Spline
-              scene="https://prod.spline.design/jmCKfd-xG14UYY5S/scene.splinecode"
-              className="spline"
-            />
           </div>
         </div>
       </div>

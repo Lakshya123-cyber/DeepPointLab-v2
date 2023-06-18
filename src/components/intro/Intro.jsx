@@ -7,7 +7,6 @@ import Testimonials from "../testimonials/Testimonials";
 import Blog from "../blog/Blog";
 import Contact from "../contact/Contact";
 
-import Spline from "@splinetool/react-spline";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

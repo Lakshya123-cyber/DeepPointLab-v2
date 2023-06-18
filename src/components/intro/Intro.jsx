@@ -6,6 +6,7 @@ import ProductList from "../productList/ProductList";
 import Testimonials from "../testimonials/Testimonials";
 import Blog from "../blog/Blog";
 import Contact from "../contact/Contact";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -108,6 +109,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
+
       <div data-aos="fade-up">
         <About />
       </div>

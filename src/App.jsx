@@ -10,6 +10,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import BlogPost from "./components/blog/BlogPost";
+import "./index.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

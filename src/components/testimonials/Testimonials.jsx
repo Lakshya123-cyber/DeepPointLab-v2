@@ -21,7 +21,6 @@ const TestimonialSectionStyles = styled.div`
     padding: 3rem;
     background-color: #3b8e92;
     color: #fff;
-    margin-left: -50px;
     border-radius: 12px;
     margin-top: 5rem;
   }
@@ -82,7 +81,7 @@ const TestimonialSectionStyles = styled.div`
 
   @media screen and (max-width: 480px) {
     .testimonial__wrapper {
-      width: 80%;
+      width: 100%;
       padding: 10px;
     }
     .testimonial__name {

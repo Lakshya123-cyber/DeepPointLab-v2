@@ -6,7 +6,7 @@ const Blog = () => {
   return (
     <>
       <h1 className="h1">Our Blogs</h1>
-      <section className="blog padding">
+      <section className="blog padding" id="blogs">
         <div className="container grid2">
           <BlogCard />
           <BlogCard />

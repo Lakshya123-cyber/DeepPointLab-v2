@@ -3,7 +3,8 @@ import { MenuData } from "./MenuData";
 import "./NavbarStyles.css";
 import Toggle from "../toggle/Toggle";
 import logo from "../../img/logo.svg";
-import { Link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 class Navbar extends Component {
   state = { clicked: false };

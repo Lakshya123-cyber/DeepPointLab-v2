@@ -1,6 +1,6 @@
 import React from "react";
 import { blogs } from "../../data";
-import Img from "../../img/card.png";
+import Img from "../../img/work1.jpeg";
 import "./blog.css";
 import {
   BrowserRouter,

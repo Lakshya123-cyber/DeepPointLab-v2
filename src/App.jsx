@@ -35,11 +35,11 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Intro />} exact />
-        <Route path="/" element={<About />} exact />
-        <Route path="/" element={<ProductList />} exact />
-        <Route path="/" element={<Testimonials />} exact />
+        <Route path="/about" element={<About />} exact />
+        <Route path="/services" element={<ProductList />} exact />
+        <Route path="/testimonials" element={<Testimonials />} exact />
         <Route path="/blogs" element={<BlogPost />} exact />
-        <Route path="/" element={<Contact />} exact />
+        <Route path="/contact" element={<Contact />} exact />
       </Routes>
     </div>
   );

@@ -59,7 +59,7 @@
   background-color: #c1eff1;
 }
 .h1 {
-  margin-left: 715px;
+  margin-left: 730px;
   font-size: 3rem;
   text-decoration: none;
 }
@@ -69,7 +69,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .h1 {
-    margin-left: 80px;
+    margin-left: 90px;
     font-size: 2.8rem;
     text-decoration: none;
   }

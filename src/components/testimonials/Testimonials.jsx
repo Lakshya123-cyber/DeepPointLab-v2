@@ -13,7 +13,7 @@ const TestimonialSectionStyles = styled.div`
   .testimonial__wrapper {
     position: relative;
     max-width: 700px;
-    margin: 0 auto;
+    margin-left: 325px;
   }
   .testimonial__info {
     width: 100%;
@@ -81,7 +81,8 @@ const TestimonialSectionStyles = styled.div`
 
   @media screen and (max-width: 480px) {
     .testimonial__wrapper {
-      width: 100%;
+      margin-left: -23px;
+      width: 80%;
       padding: 10px;
     }
     .testimonial__name {

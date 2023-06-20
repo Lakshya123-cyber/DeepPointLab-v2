@@ -9,6 +9,8 @@ const Blog = () => {
       <section className="blog padding">
         <div className="container grid2">
           <BlogCard />
+          <BlogCard />
+          <BlogCard />
         </div>
       </section>
     </>

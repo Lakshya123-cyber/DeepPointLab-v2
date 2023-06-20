@@ -8,7 +8,7 @@ import testimonials from "../../data";
 
 const TestimonialSectionStyles = styled.div`
   overflow-x: hidden;
-  padding: 10rem 0;
+  padding: 5rem 0;
   text-align: center;
   .testimonial__wrapper {
     position: relative;

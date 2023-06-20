@@ -71,21 +71,21 @@ const Contact = () => {
               type="text"
               placeholder="Your Name"
               name="user_name"
-              className="mb-[20px]"
+              className="mb-[20px]  p-2"
             />
             <input
               style={{ backgroundColor: darkMode && "#333", width: "100%" }}
               type="text"
               placeholder="Your Email"
               name="user_email"
-              className="mb-[20px]"
+              className="mb-[20px]  p-2"
             />
             <input
               style={{ backgroundColor: darkMode && "#333", width: "100%" }}
               type="text"
               placeholder="Subject"
               name="user_subject"
-              className="mb-[30px]"
+              className="mb-[30px]  p-2"
             />
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
@@ -94,7 +94,9 @@ const Contact = () => {
               name="message"
               className="mb-[30px] outline-dashed p-2"
             />
-            <button className="bg-[#a4eef1] px-6">Submit</button>
+            <button className="bg-[#a4eef1] px-6 text-black py-4">
+              Submit
+            </button>
             <br />
             <br />
             <b style={{ fontSize: "30px" }}>{done && "Thank you!"}</b>

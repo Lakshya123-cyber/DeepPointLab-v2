@@ -1,9 +1,9 @@
-import Work1 from "../../img/work-1.svg";
-import Work2 from "../../img/work-2.svg";
-import Work3 from "../../img/work-3.svg";
-import Work4 from "../../img/work-4.svg";
-import Work5 from "../../img/work-5.svg";
-import Work6 from "../../img/work-6.svg";
+import Work1 from "../../img/work1.jpeg";
+import Work2 from "../../img/work1.jpeg";
+import Work3 from "../../img/work1.jpeg";
+import Work4 from "../../img/work1.jpeg";
+import Work5 from "../../img/work1.jpeg";
+import Work6 from "../../img/work1.jpeg";
 
 const Menu = [
   {

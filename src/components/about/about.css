@@ -1,5 +1,5 @@
 .a {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
 }
@@ -40,15 +40,18 @@
 }
 
 .a-title {
-  font-weight: 400;
+  font-size: 3.5rem;
+  font-weight: 600;
 }
 
 .a-sub {
+  font-size: 1.5rem;
   margin: 20px 0px;
 }
 
 .a-desc {
   font-weight: 300;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 480px) {

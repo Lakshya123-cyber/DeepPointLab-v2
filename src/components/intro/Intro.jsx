@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import Img from "../../img/robot.png";
+import Img from "../../img/hand.jpg";
 import About from "../about/About";
 import ProductList from "../productList/ProductList";
 import Testimonials from "../testimonials/Testimonials";
@@ -105,7 +105,6 @@ const Intro = () => {
               </svg>
             </div>
             <div className="i-right">
-              <div className="i-bg"></div>
               <img src={Img} alt="" className="i-img" />
             </div>
           </div>

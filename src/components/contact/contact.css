@@ -83,7 +83,7 @@ button {
 
 @media screen and (max-width: 480px) {
   .c {
-    height: 100vh;
+    height: 110vh;
   }
   .c-wrapper {
     flex-direction: column;
